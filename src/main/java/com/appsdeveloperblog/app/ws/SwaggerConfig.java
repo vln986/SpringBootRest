@@ -20,7 +20,7 @@ public class SwaggerConfig {
 	
 /*	Contact contact = new Contact(
 		"Laxminarayana",
-		"http://appsdeveloperblog.com",
+		"http://appsdeveloperblog.com",   Run the app on : http://localhost:8080/mobile-app-ws/swagger-ui.html
 		"laxminarayanaveggalam@gmail.com"
 	);*/
 	
