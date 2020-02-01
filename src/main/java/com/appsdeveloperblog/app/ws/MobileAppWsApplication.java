@@ -12,9 +12,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import com.appsdeveloperblog.app.ws.security.AppProperties;
 
-@Configuration
-@EnableAutoConfiguration
-@ComponentScan
+//@Configuration
+//@EnableAutoConfiguration
+//@ComponentScan
 @SpringBootApplication
 public class MobileAppWsApplication extends SpringBootServletInitializer {   
 	
