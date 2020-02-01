@@ -41,10 +41,10 @@ public class MobileAppWsApplication extends SpringBootServletInitializer {
 	public AppProperties appProperties() {
 		return new AppProperties();
 	}
-	@Bean(name="entityManagerFactory")
-	public LocalSessionFactoryBean sessionFactory() {
-	    LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
-
-	    return sessionFactory;
-	} 
-}
+	/*
+	 * @Bean(name="entityManagerFactory") public LocalSessionFactoryBean
+	 * sessionFactory() { LocalSessionFactoryBean sessionFactory = new
+	 * LocalSessionFactoryBean();
+	 * 
+	 * return sessionFactory; }
+	 */}
