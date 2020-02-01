@@ -111,7 +111,7 @@
       <configuration>
         <rules>
           <enforceBytecodeVersion>
-            <maxJdkVersion>1.8</maxJdkVersion>
+            <maxJdkVersion>1.9</maxJdkVersion>
           </enforceBytecodeVersion>
         </rules>
         <fail>true</fail>
