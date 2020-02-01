@@ -8,6 +8,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import com.appsdeveloperblog.app.ws.security.AppProperties;
@@ -41,4 +42,10 @@ public class MobileAppWsApplication extends SpringBootServletInitializer {
 	public AppProperties appProperties() {
 		return new AppProperties();
 	}
+	@Bean(name="entityManagerFactory")
+	public LocalSessionFactoryBean sessionFactory() {
+	    LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
+
+	    return sessionFactory;
+	} 
 }
